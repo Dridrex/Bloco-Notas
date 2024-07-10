@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    
+    
+}
+
+.login-container{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    justify-content: end;
+    
+}
+
+.login-senha{
+    border: 3px;
+}
