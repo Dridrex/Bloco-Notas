@@ -9,16 +9,21 @@
 <body class="body">
     <div class="login-container">
         <h2>Login</h2>
-        <div>
-            <label for="username">Usuario:</label>
-            <input type="text" id="username" name="username" required>
-        </div>
+        <form action="/login" method="post">    
+            <div class="login-senha">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            
+            <div class="login-senha">
+                <label for="password">Senha:       </label>
+                <input type="password" id="password" name="password" required>
+            </div>
         
-        <div class="login-senha">
-            <label for="password">Senha:   </label>
-            <input type="password" id="password" name="password" required>
+        <button type="submit"  class="button">Entrar</button>
+
+        </form>
         </div>
-    </div>
     
 </body>
 </html>

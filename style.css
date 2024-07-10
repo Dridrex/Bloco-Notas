@@ -15,9 +15,28 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     justify-content: end;
+    width: 50%;
     
 }
 
 .login-senha{
     border: 3px;
+    text-align: right;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: flex-end;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    
+} 
+
+button{
+    border: none;
+    padding: 5px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    background-color: rgb(248, 243, 243);
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
 }
